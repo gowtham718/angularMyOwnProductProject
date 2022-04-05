@@ -13,6 +13,22 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
+  add() {
+    window.alert('The product has been added to the cart successfully!');
+  }
+  remove() {
+    window.alert('The product has been removed from the cart successfully!');
+  }
+
+  Payment() {
+    window.alert('Your payment has made successfully!');
+  }
+  review() {
+    window.alert('Thanks for Your Review!');
+  }
+  onNotify() {
+    window.alert('Notification!');
+  }
 }
 
 
